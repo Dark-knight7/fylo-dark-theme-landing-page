@@ -100,10 +100,33 @@ p {
     width: 50%;
     background-image: linear-gradient(to right, var(--Cyan-call-to-action-gradient-1), var(--Blue-call-to-action-gradient-2));
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
 }
 
+/* ----feature-1 ----- */
+.feature-1 {
+    padding: 5% 15%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.feature-content {
+    height: 300px;
+    margin-top: 25%;
+}
+
+.feature-1-icon {
+    height: 100px;
+}
+
+.feature-1-header {
+    margin-top: 10%;
+}
+
+.feature-1-p {
+    padding: 0 30px;
+}
 
 
     .attribution { font-size: 11px; text-align: center; }
