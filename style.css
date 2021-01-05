@@ -28,7 +28,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 body {
@@ -38,3 +38,73 @@ body {
     font-size: var(--ff-size);
     font-weight: 700;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 25px;
+}
+
+h1 {
+    font-family: var(--ff-family-headings);
+    font-weight: 700;
+}
+
+p {
+    font-family: var(--ff-family-body);
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+/* nav */
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    margin-top: 10px;
+}
+
+.navbar-brand img{
+    width: 90px;
+}
+
+nav a {
+    color: var(--White);
+    font-family: var(--ff-family-body);
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-size: 1rem;
+    color: var(--White);
+}
+
+.intro-img {
+    max-width: 100%;
+    margin: 50px 0;
+}
+
+/* ---------------------------------- section-info ------------ */
+h1, p {
+    text-align: center;
+}
+
+p {
+    padding: 3% 8%;
+    font-weight: lighter;
+}
+
+.intro-btn {
+    width: 50%;
+    background-image: linear-gradient(to right, var(--Cyan-call-to-action-gradient-1), var(--Blue-call-to-action-gradient-2));
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
